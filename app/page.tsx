@@ -10,8 +10,6 @@ export default function Home() {
     console.log("Generating passkey...");
     const res = await ClientRegistration("abcd");
     console.log(res);
-    const res1 = await ClientAuthentication(res);
-    console.log(res1);
   };
 
   generatePasskey();
